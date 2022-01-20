@@ -18,9 +18,9 @@ const ImageSlider=({images})=>{
     return(
         images.length > 0 && (
             <div>
-                <button onClick={slideLeft}>{"<"}</button>
+                <button onClick={slideLeft}>{"Previous"}</button>
                 <img src={images[index]} alt={index} />
-                <button onClick={slideRight}>{">"}</button>
+                <button onClick={slideRight}>{"Next"}</button>
             </div>
         )
     );
