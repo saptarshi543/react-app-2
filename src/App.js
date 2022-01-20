@@ -1,6 +1,7 @@
 import React,{ useState } from 'react';
 import './App.css';
 import ImageSlider from './ImageSlider';
+import Me from './Me';
 
 const App=()=>{
 
@@ -20,6 +21,9 @@ const App=()=>{
 
   return(
     <div className="App">
+      <br></br>
+      <Me />
+      <br></br>
       <h1>Image slider</h1>
       <form onSubmit={handleSubmit}>
         <input type="text" onChange={(e)=>setQuery(e.target.value)}/>
