@@ -21,16 +21,16 @@ const App=()=>{
 
   return(
     <div className="App">
-     
+      <br></br>
+      <Me />
+      <br></br>
       <h1>Image slider</h1>
       <form onSubmit={handleSubmit}>
         <input type="text" onChange={(e)=>setQuery(e.target.value)}/>
         <input type="submit" value="Search" />
       </form>
       <ImageSlider images={images} />
-      <br></br>
-      <Me />
-      <br></br>
+
     </div>
   );
 }
