@@ -14,13 +14,19 @@ const ImageSlider=({images})=>{
             setIndex(nextIndex);
         }
     };
+    const buttonStyles={
+        width:"70px",
+        height:"20px"
+    };
 
     return(
         images.length > 0 && (
             <div>
-                <button onClick={slideLeft}>{"Previous"}</button>
+                <button onClick={slideLeft}  style={buttonStyles}>{"Previous"}</button>
+                <br></br>
                 <img src={images[index]} alt={index} />
-                <button onClick={slideRight}>{"Next"}</button>
+                <br></br>
+                <button onClick={slideRight} style={buttonStyles}>{"Next"}</button>
             </div>
         )
     );
