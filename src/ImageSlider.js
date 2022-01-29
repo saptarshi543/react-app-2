@@ -26,8 +26,10 @@ const ImageSlider=({images})=>{
         height:"70px"
     };
     const styleForResults={
-        width:"500px",
-        height:"300px"
+        paddingLeft:"15%",
+        paddingRight:"15%",
+        width:"auto",
+        height:"auto"
     };
     return(
         images.length > 0 && (
