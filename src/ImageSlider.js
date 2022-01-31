@@ -28,7 +28,7 @@ const ImageSlider=({images})=>{
     return(
         images.length > 0 && (
             <div>
-                <img style={imgStyles} onClick={slideLeft} src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbggreensource.org%2Fwp-content%2Fuploads%2F2018%2F06%2FPrevious-Button-Transparent-Background.png&f=1&nofb=1" alt="Previous" />
+                <img style={imgStyles} onClick={slideLeft} src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F000%2F442%2F785%2Foriginal%2Fprevious-vector-icon.jpg&f=1&nofb=1" alt="Previous" />
                 <br></br>
                 <img style={styleForResults} src={images[index]} alt={index} />
                 <br></br>
