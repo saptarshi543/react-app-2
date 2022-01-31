@@ -14,12 +14,6 @@ const ImageSlider=({images})=>{
             setIndex(nextIndex);
         }
     };
-    
-    // const buttonStyles={
-    //     display:"hidden",
-    //     width:"100px",
-    //     height:"200px"
-    // };
 
     const imgStyles={
         width:"100px",
@@ -28,13 +22,13 @@ const ImageSlider=({images})=>{
     const styleForResults={
         paddingLeft:"15%",
         paddingRight:"15%",
-        width:"auto",
+        width:"500px",
         height:"auto"
     };
     return(
         images.length > 0 && (
             <div>
-                <img style={imgStyles} onClick={slideLeft} src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbggreensource.org%2Fwp-content%2Fuploads%2F2018%2F06%2FPrevious-Button-Transparent-Background.png&f=1&nofb=1" alt="Previous" />
+                <img style={imgStyles} onClick={slideLeft} src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.b2z2PHydYg2VbTD2uCFsygHaHa%26pid%3DApi&f=1" alt="Previous" />
                 <br></br>
                 <img style={styleForResults} src={images[index]} alt={index} />
                 <br></br>
