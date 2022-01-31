@@ -14,24 +14,23 @@ const ImageSlider=({images})=>{
             setIndex(nextIndex);
         }
     };
-    
-    // const buttonStyles={
-    //     display:"hidden",
-    //     width:"100px",
-    //     height:"200px"
-    // };
 
     const imgStyles={
         width:"100px",
         height:"70px"
     };
-
+    const styleForResults={
+        paddingLeft:"15%",
+        paddingRight:"15%",
+        width:"500px",
+        height:"auto"
+    };
     return(
         images.length > 0 && (
             <div>
                 <img style={imgStyles} onClick={slideLeft} src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbggreensource.org%2Fwp-content%2Fuploads%2F2018%2F06%2FPrevious-Button-Transparent-Background.png&f=1&nofb=1" alt="Previous" />
                 <br></br>
-                <img src={images[index]} alt={index} />
+                <img style={styleForResults} src={images[index]} alt={index} />
                 <br></br>
                 <img style={imgStyles} onClick={slideRight} src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fclipartmag.com%2Fimages%2Fnext-button-clipart-9.png&f=1&nofb=1" alt="Next" />
             </div>
