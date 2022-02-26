@@ -22,7 +22,7 @@ const App=()=>{
   return(
     <div className="App">
      
-      <h1>Image slider</h1>
+      <h1>Search for something</h1>
       <form onSubmit={handleSubmit}>
         <input type="text" onChange={(e)=>setQuery(e.target.value)}/>
         <input type="submit" value="Search" />
