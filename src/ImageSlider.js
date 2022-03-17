@@ -16,13 +16,11 @@ const ImageSlider=({images})=>{
     };
 
     const imgStyles={
-        width:"100px",
+	    width:"100px",
         height:"70px"
     };
     const styleForResults={
-        paddingLeft:"15%",
-        paddingRight:"15%",
-        width:"500px",
+	    width:"100%",
         height:"auto"
     };
     return(
