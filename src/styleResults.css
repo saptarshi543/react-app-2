@@ -1,0 +1,15 @@
+@media only screen and (min-width : 1025px) {
+    .final_results {
+    	padding-left: 15%;
+    	padding-right: 15%;
+    	width: 500px;
+    	height: auto;
+    }
+}
+
+@media only screen and (max-width : 1024px) {
+    .final_results {
+    	width: 100%;
+    	height: auto;
+    }
+}
