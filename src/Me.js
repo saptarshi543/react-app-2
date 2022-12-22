@@ -13,7 +13,7 @@ const text={
         <a style={text} href='https://github.com/saptarshi543'>my github account</a>
         <br></br>
         <p1>Wonder why this site does not have a nice domain name?
-            That's because i am too poor to afford a site name.
+            That's because i am too poor to afford a domain.
             So <a style={text} href="https://www.buymeacoffee.com/sap543">pleasse support me here.</a>
         </p1>
         </div>
