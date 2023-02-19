@@ -10,7 +10,7 @@ const App=()=>{
 
   const handleSubmit=(e)=>{
     e.preventDefault();
-	  const k=`${process.env.API_KEY_R}`;
+	  const k= process.env.API_KEY_R;
   console.log("test -> "+k);
     fetch(
       `https://pixabay.com/api/?key={process.env.API_KEY_R}&q=${query}`
