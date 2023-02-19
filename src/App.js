@@ -13,7 +13,7 @@ const App=()=>{
 //	  const k=`${process.env.REACT_APP_API_KEY}`;
   //  console.log("test -> "+k);
     fetch(
-      `https://pixabay.com/api/?key=25327586-7719c389d6bb2cfb9d48e1347&q=${query}`
+      `https://pixabay.com/api/?key={process.env.API_KEY_R}&q=${query}`
     )
       .then((response) => response.json())
       .then(({ hits }) => hits.map(({ webformatURL }) => webformatURL)) // use object destructuring to grab image urls from json response
